@@ -14,7 +14,7 @@ a {
   background-color: #ffffff;
 }
 
-.header-main-up {
+.header-main-wrapper {
   display: flex;
   justify-content: space-between;
 }
@@ -29,7 +29,7 @@ a {
   margin: 1.5rem 0 1.5rem 0;
 }
 
-.header-link {
+.header-nav-link {
   font-size: 1rem;
   line-height: 1;
   color: #3e4247;
@@ -45,12 +45,13 @@ a {
   padding: 5rem 0 5rem 0;
 }
 
-.head-block {
+.promo {
+  text-align: center;
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
 
-.head-block-title {
+.promo-title {
   display: flex;
   justify-content: center;
   font-size: 1.5rem;
@@ -59,18 +60,12 @@ a {
   line-height: 2rem;
 }
 
-.head-block-text {
+.promo-description {
   color: #3e4247;
   line-height: 1.5;
 }
 
-.head-block-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.head-block-button-style {
+.promo-button {
   font-family: 'Fira Sans', sans-serif;
   font-size: 1rem;
   color: #ffffff;
@@ -128,7 +123,7 @@ a {
   background-color: #111111;
 }
 
-.footer-about {
+.footer-title {
   font-weight: 700;
   color: #646971;
 }
