@@ -1,45 +1,9 @@
-html {
-  font-family: 'Fira Sans', sans-serif;
-  font-size: 1rem;
-  background-color: #EAEBF0;
-  background-image: url(https://i.imgur.com/oW3ktTM.png);
-  background-size: 0.8%;
-}
-
 .complex-page {
   background-color: #ffffff;
 }
 
-a {
-  text-decoration: none;
-}
-
-.header-main {
-  background-color: #ffffff;
-  border-bottom: 1px solid #eaebf0;
-}
-
-.header-main-wrapper {
-  display: flex;
-  justify-content: space-between;
-}
-
-.header-logo {
-  display: flex;
-  margin: 1.25rem 0 1.25rem 0;
-}
-
-.header-nav {
-  display: flex;
-  margin: 1.5rem 0 1.5rem 0;
-}
-
-.header-nav-link {
-  font-size: 1rem;
-  line-height: 1;
-  color: #3e4247;
-  text-decoration: none;
-  padding-left: 2rem;
+.intro {
+  border-top: 1px solid #eaebf0;
 }
 
 .intro-wrapper {
@@ -57,22 +21,25 @@ a {
   border-radius: 2px;
   border: solid 1px #e0e0e1;
   margin-top: 1.5rem;
-  margin-bottom: 3.5rem;
+  margin-bottom: 3.4rem;
   padding: 0.5rem 1rem;
 }
 
 .intro-wrapper-selection-details {
   font-family: 'Philosopher', sans-serif;
   font-size: 2rem;
+  line-height: 1.13;
   font-weight: bold;
   color: #3e4247;
-  margin: 0 auto;
+  margin: 0;
   padding-top: 1.5rem;
 }
 
 .intro-wrapper-selection-address {
   font-size: 0.875rem;
+  line-height: 1.57;
   font-weight: 300;
+  margin-top: 0.5rem;
   color: #a9afb6
 }
 
@@ -96,39 +63,50 @@ a {
   background-color: #00779a;
   position: absolute;
   padding: 0.5rem 1rem;
-  margin-top: -3rem;
+  margin-top: -2.6rem;
 }
 
 .summary-header {
   display: flex;
   justify-content: flex-start;
-  margin-top: 0.5rem;
+  margin-top: 0.3rem;
 }
 
 .summary-header-title {
   font-family: 'Philosopher';
   margin-right: 3rem;
+  line-height: 1.13;
   font-weight: bold;
   color: #3e4247;
 }
 
-.summary-titles {
+.summary-features-title {
   font-family: 'Philosopher';
   margin-bottom: 1rem;
-  font-weight: bold;
+  margin-top: 1.4rem;
+  line-height: 1.13;
+  font-weight: 700;
   color: #3e4247;
 }
 
 .summary-header-small {
   font-family: 'Fira Sans';
   font-size: 0.875rem;
+  line-height: 1.57;
   font-weight: 300;
   color: #a9afb6;
-  line-height: 1.375rem;
+}
+
+.summary-description-title {
+  font-family: 'Philosopher';
+  margin-top: 1rem;
+  font-weight: 700;
+  color: #3e4247;
 }
 
 .summary-description-text {
   margin-right: 2rem;
+  margin-bottom: 1.8rem;
   line-height: 1.56;
   color: #3e4247;
 }
@@ -140,8 +118,8 @@ a {
 }
 
 .summary-features {
-  padding-top: 0.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 1.4rem;
 }
 
 .summary-features-list {
@@ -153,7 +131,7 @@ a {
   color: #a9afb6;
   float: left;
   clear: both;
-  margin-bottom: 1rem;
+  margin-bottom: 0.7rem;
   width: 50%;
 }
 
@@ -167,19 +145,28 @@ a {
 }
 
 .summary-infrastructure {
-  padding-top: 0.5rem;
-  padding-bottom: 3rem;
+  padding-bottom: 3.5rem;
+}
+
+.summary-infrastructure-title {
+  font-family: 'Philosopher';
+  margin-bottom: 1rem;
+  margin-top: 1.4rem;
+  font-weight: 700;
+  color: #3e4247;
 }
 
 .summary-infrastructure-text {
   line-height: 1.38;
   color: #3e4247;
   margin-top: 0;
+  margin-bottom: 0.45rem;
 }
 
 .offers {
   background-color: #f4f5f9;
-  padding: 3rem;
+  padding-top: 2.8rem;
+  padding-bottom: 4.4rem;
 }
 
 .offers-title {
@@ -187,12 +174,13 @@ a {
   font-family: 'Philosopher';
   font-weight: bold;
   color: #3e4247;
-  padding-bottom: 0.5rem;
+  line-height: 1.13;
 }
 
 .offers-card-title {
   font-family: 'Philosopher';
   font-size: 1.25rem;
+  line-height: 1.1;
   font-weight: 700;
   color: #3e4247;
   margin-bottom: 0.5rem;
@@ -200,25 +188,27 @@ a {
 
 .offers-card-list {
   display: block;
+  margin-bottom: 0.6rem;
 }
 
 .offers-card-list-label {
-  line-height: 2;
+  line-height: 1.38;
+  padding-bottom: 0.6rem;
   color: #a9afb6;
 }
 
 .offers-card-list-value {
-  line-height: 2;
+  line-height: 1.38;
   color: #3e4247;
   margin: 0;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 .offers-card {
   display: flex;
   flex-flow: column;
   background-color: #ffffff;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
 }
 
 .offers-card-button {
@@ -228,8 +218,8 @@ a {
   line-height: 1;
   padding: 0.8rem 2rem;
   margin-bottom: 0.5rem;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   border-radius: 2px;
   border: none;
   background-color: #000000;
@@ -285,13 +275,6 @@ a {
   border-bottom: 1px solid #e0e0e1;
 }
 
-.location-spots-spot-range {
-  margin-left: 0;
-  margin-top: 1rem;
-  text-align: left;
-  color: #a9afb6;
-}
-
 .location-spots-spot-place {
   font-weight: 700;
   line-height: 1.38;
@@ -299,49 +282,17 @@ a {
   color: #3e4247;
 }
 
+.location-spots-spot-range {
+  margin-left: 0;
+  margin-top: 0.8rem;
+  line-height: 1.38;
+  text-align: left;
+  color: #a9afb6;
+}
+
 .footer-main {
   margin-top: 6rem;
   padding-top: 2rem;
   font-size: 0.875rem;
   background-color: #111111;
-}
-
-.footer-title {
-  font-weight: 700;
-  color: #646971;
-}
-
-.footer-contacts {
-  font-weight: 300;
-  line-height: 1;
-  color: #a9afb6;
-}
-
-.footer-contacts:last-child {
-  margin-top: 1.5rem;
-}
-
-.footer-hr {
-  height: 0.125rem;
-  background-color: #3e4247;
-  border: none;
-  margin-bottom: 1rem;
-}
-
-.footer-link {
-  display: block;
-  font-weight: 300;
-  color: white;
-  line-height: 1.4rem;
-  margin-top: 0.5rem;
-}
-
-.footer-disclaimer {
-  margin-top: 6rem;
-  margin-bottom: 1.75rem;
-  font-size: 0.6875rem;
-  font-weight: 300;
-  text-align: left;
-  line-height: 1.2rem;
-  color: #a9afb6;
 }
