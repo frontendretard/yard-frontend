@@ -1,0 +1,319 @@
+.complex-page {
+  background-color: #ffffff;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+.intro {
+  border-top: 1px solid #eaebf0;
+}
+
+.intro-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro-wrapper-favbutton {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 0.625rem;
+  font-weight: 300;
+  line-height: 1;
+  background-color: #ffffff;
+  color: #00779a;
+  border-radius: 2px;
+  border: solid 1px #e0e0e1;
+  margin-top: 1.5rem;
+  margin-bottom: 3.4rem;
+  padding: 0.5rem 1rem;
+}
+
+.intro-wrapper-selection-details {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 2rem;
+  line-height: 1.13;
+  font-weight: bold;
+  color: #3e4247;
+  margin: 0;
+  padding-top: 1.5rem;
+}
+
+.intro-wrapper-selection-address {
+  font-size: 0.875rem;
+  line-height: 1.57;
+  font-weight: 300;
+  margin-top: 0.5rem;
+  color: #a9afb6
+}
+
+.carousel-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.carousel-wrapper-img {
+  height: 400px
+}
+
+.carousel-button {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 0.625rem;
+  color: #ffffff;
+  border-radius: 2px;
+  border: 0;
+  background-color: #00779a;
+  position: absolute;
+  padding: 0.5rem 1rem;
+  margin-top: -2.6rem;
+}
+
+.summary-header {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0.3rem;
+}
+
+.summary-header-title {
+  font-family: 'Philosopher';
+  margin-right: 3rem;
+  line-height: 1.13;
+  font-weight: bold;
+  color: #3e4247;
+}
+
+.summary-features-title {
+  font-family: 'Philosopher';
+  margin-bottom: 1rem;
+  font-weight: 400;
+  margin-top: 1.4rem;
+  line-height: 1.13;
+  font-weight: 700;
+  color: #3e4247;
+}
+
+.summary-header-small {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.57;
+  font-weight: 300;
+  color: #a9afb6;
+}
+
+.summary-description-title {
+  font-family: 'Philosopher';
+  margin-top: 1rem;
+  font-weight: 700;
+  color: #3e4247;
+}
+
+.summary-description-text {
+  margin-right: 2rem;
+  margin-bottom: 1.8rem;
+  line-height: 1.56;
+  color: #3e4247;
+}
+
+.summary-description-text:last-child {
+  margin-bottom: 1.6rem;
+}
+
+.summary-header-line {
+  height: 1px;
+  background-color: #e0e0e1;
+  border: none;
+}
+
+.summary-description-line {
+  height: 1px;
+  background-color: #e0e0e1;
+  border: none;
+  margin-top: 0;
+}
+
+.summary-features {
+  padding-top: 0.25rem;
+  padding-bottom: 1.4rem;
+}
+
+.summary-features-list {
+  display: inline;
+}
+
+.summary-features-label {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.38;
+  color: #a9afb6;
+  float: left;
+  clear: both;
+  margin-bottom: 0.7rem;
+  width: 50%;
+}
+
+.summary-features-value {
+  font-weight: 500;
+  line-height: 1.56;
+  color: #3e4247;
+  float: left;
+  margin: 0;
+  width: 50%;
+}
+
+.summary-infrastructure {
+  padding-bottom: 3.5rem;
+  padding-top: 0.2rem;
+}
+
+.summary-infrastructure-title {
+  font-family: 'Philosopher';
+  margin-bottom: 1rem;
+  margin-top: 1.4rem;
+  font-weight: 700;
+  color: #3e4247;
+}
+
+.summary-infrastructure-text {
+  line-height: 1.38;
+  color: #3e4247;
+  margin-top: 0;
+  margin-bottom: 0.45rem;
+}
+
+.offers {
+  background-color: #f4f5f9;
+  padding-top: 2.8rem;
+  padding-bottom: 3.8rem;
+}
+
+.offers-title {
+  text-align: center;
+  font-family: 'Philosopher';
+  font-weight: bold;
+  color: #3e4247;
+  line-height: 1.13;
+}
+
+.offers-card-title {
+  font-family: 'Philosopher';
+  font-size: 1.25rem;
+  text-align: left;
+  line-height: 1.1;
+  font-weight: 700;
+  color: #3e4247;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.offers-card-list {
+  text-align: left;
+  margin-bottom: 0.7rem;
+}
+
+.offers-card-list-label {
+  line-height: 1.38;
+  padding-bottom: 0.6rem;
+  color: #a9afb6;
+}
+
+.offers-card-list-value {
+  line-height: 1.38;
+  color: #3e4247;
+  margin: 0;
+  padding-bottom: 1.5rem;
+}
+
+.offers-card {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 0.5rem 2rem;
+}
+
+.offers-card-button {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+  line-height: 1;
+  border-radius: 2px;
+  border: none;
+  background-color: #000000;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+.nearby {
+  background-color: #3e4247;
+  padding-bottom: 10rem;
+}
+
+.nearby-title {
+  font-family: 'Philosopher';
+  font-weight: bold;
+  color: #a9afb6;
+}
+
+.nearby-text {
+  font-family: 'Philosopher';
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: left;
+  color: #ffffff;
+  margin-right: 2rem;
+}
+
+.nearby-img {
+  width: 100%;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.nearby-link {
+  color: #00779a;
+}
+
+.location {
+  margin-top: -10rem;
+  margin-bottom: -2.3rem;
+}
+
+.location-map {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+.location-spots {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+}
+
+.location-spots-spot {
+  padding: 1.5rem;
+  border-bottom: 1px solid #e0e0e1;
+}
+
+.location-spots-spot-place {
+  font-weight: 700;
+  line-height: 1.38;
+  text-align: left;
+  color: #3e4247;
+}
+
+.location-spots-spot-range {
+  margin-left: 0;
+  margin-top: 0.8rem;
+  line-height: 1.38;
+  text-align: left;
+  color: #a9afb6;
+}
+
+.footer-main {
+  margin-top: 6rem;
+  padding-top: 2rem;
+  font-size: 0.875rem;
+  background-color: #111111;
+}

@@ -6,6 +6,11 @@ html {
   background-size: 0.8%;
 }
 
+body {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased;
+}
+
 a {
   text-decoration: none;
 }
