@@ -1,5 +1,7 @@
 .complex-page {
   background-color: #ffffff;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased;
 }
 
 .intro {
@@ -83,6 +85,7 @@
 .summary-features-title {
   font-family: 'Philosopher';
   margin-bottom: 1rem;
+  font-weight: 400;
   margin-top: 1.4rem;
   line-height: 1.13;
   font-weight: 700;
@@ -90,11 +93,15 @@
 }
 
 .summary-header-small {
-  font-family: 'Fira Sans';
+  font-family: 'Fira Sans', sans-serif;
   font-size: 0.875rem;
   line-height: 1.57;
   font-weight: 300;
   color: #a9afb6;
+}
+
+.summary-description {
+  margin-bottom: -0.2rem;
 }
 
 .summary-description-title {
@@ -111,10 +118,17 @@
   color: #3e4247;
 }
 
-.summary-line {
+.summary-header-line {
   height: 1px;
   background-color: #e0e0e1;
   border: none;
+}
+
+.summary-description-line {
+  height: 1px;
+  background-color: #e0e0e1;
+  border: none;
+  margin-top: 0;
 }
 
 .summary-features {
@@ -127,6 +141,9 @@
 }
 
 .summary-features-label {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
   line-height: 1.38;
   color: #a9afb6;
   float: left;
@@ -146,6 +163,7 @@
 
 .summary-infrastructure {
   padding-bottom: 3.5rem;
+  padding-top: 0.2rem;
 }
 
 .summary-infrastructure-title {
@@ -166,7 +184,7 @@
 .offers {
   background-color: #f4f5f9;
   padding-top: 2.8rem;
-  padding-bottom: 4.4rem;
+  padding-bottom: 3.8rem;
 }
 
 .offers-title {
@@ -180,13 +198,55 @@
 .offers-card-title {
   font-family: 'Philosopher';
   font-size: 1.25rem;
+  text-align: left;
   line-height: 1.1;
   font-weight: 700;
   color: #3e4247;
   margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .offers-card-list {
+  text-align: left;
+  margin-bottom: 0.7rem;
+}
+
+.offers-card-list-label {
+  line-height: 1.38;
+  padding-bottom: 0.6rem;
+  color: #a9afb6;
+}
+
+.offers-card-list-value {
+  line-height: 1.38;
+  color: #3e4247;
+  margin: 0;
+  padding-bottom: 1.5rem;
+}
+
+.offers-card {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 0.5rem 2rem;
+}
+
+.offers-card-button {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+  line-height: 1;
+  border-radius: 2px;
+  border: none;
+  background-color: #000000;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+
+/*.offers-card-list {
   display: block;
   margin-bottom: 0.6rem;
 }
@@ -223,7 +283,7 @@
   border-radius: 2px;
   border: none;
   background-color: #000000;
-}
+}*/
 
 .nearby {
   background-color: #3e4247;
@@ -237,13 +297,13 @@
 }
 
 .nearby-text {
-  width: 583px;
   font-family: 'Philosopher';
   font-size: 3rem;
   font-weight: bold;
   line-height: 1.25;
   text-align: left;
   color: #ffffff;
+  margin-right: 2rem;
 }
 
 .nearby-img {
@@ -258,6 +318,7 @@
 
 .location {
   margin-top: -10rem;
+  margin-bottom: -2.3rem;
 }
 
 .location-map {
