@@ -100,10 +100,6 @@
   color: #a9afb6;
 }
 
-.summary-description {
-  margin-bottom: -0.2rem;
-}
-
 .summary-description-title {
   font-family: 'Philosopher';
   margin-top: 1rem;
@@ -116,6 +112,10 @@
   margin-bottom: 1.8rem;
   line-height: 1.56;
   color: #3e4247;
+}
+
+.summary-description-text:last-child {
+  margin-bottom: 1.6rem;
 }
 
 .summary-header-line {
@@ -244,46 +244,6 @@
   padding-right: 2rem;
   margin-bottom: 1.2rem;
 }
-
-
-/*.offers-card-list {
-  display: block;
-  margin-bottom: 0.6rem;
-}
-
-.offers-card-list-label {
-  line-height: 1.38;
-  padding-bottom: 0.6rem;
-  color: #a9afb6;
-}
-
-.offers-card-list-value {
-  line-height: 1.38;
-  color: #3e4247;
-  margin: 0;
-  padding-bottom: 1.5rem;
-}
-
-.offers-card {
-  display: flex;
-  flex-flow: column;
-  background-color: #ffffff;
-  padding: 0.5rem 2rem;
-}
-
-.offers-card-button {
-  font-family: 'Fira Sans', sans-serif;
-  font-size: 1rem;
-  color: #ffffff;
-  line-height: 1;
-  padding: 0.8rem 2rem;
-  margin-bottom: 0.5rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  border-radius: 2px;
-  border: none;
-  background-color: #000000;
-}*/
 
 .nearby {
   background-color: #3e4247;
